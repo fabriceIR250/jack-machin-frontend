@@ -1,7 +1,6 @@
 <script setup>
 import Mg from '../assets/sample.jpg';
 </script>
-
 <template>
 <div class="image-container" style="position: relative; height: 65vh;">
   <img :src="Mg" class="img-fluid w-100" style="height: 100%;" alt="...">
@@ -161,6 +160,7 @@ import Mg from '../assets/sample.jpg';
   object-fit: cover;
   border-bottom: 1px solid #ddd;
 }
+
 </style>
 <script>
 import img from '../assets/WhatsApp Image 2025-01-26 at 08.51.39_2d9a4709.jpg';
