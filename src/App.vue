@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Nav from './components/Nav.vue';
+import './assets/main.css';
 
 </script>
 
@@ -8,4 +9,8 @@ import Nav from './components/Nav.vue';
 <Nav/>
   <RouterView />
 </template>
+
+<style>
+
+</style>
 

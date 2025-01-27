@@ -1,34 +1,32 @@
 <template>
     <!-- Top Navbar -->
-    <nav class="navbar bg-light py-2 border-bottom">
-      <div class="container-fluid">
-        <span class="navbar-text">
-          <i class="bi bi-telephone-fill"></i> +1 (234) 567-890 | 
-          <i class="bi bi-envelope-fill"></i> support@jackmachin.com
-        </span>
-        <div>
-          <button class="btn btn-outline-primary me-2">Login</button>
-          <button class="btn btn-primary">Sign Up</button>
-        </div>
-      </div>
-    </nav>
+    <nav class="navbar bg-light border-bottom" style="height:40px;">
+  <div class="container-fluid d-flex justify-content-center align-items-center">
+    <span class="navbar-text text-center">
+      <i class="bi bi-telephone-fill me-2"></i> +1 (234) 567-890 | 
+      <i class="bi bi-envelope-fill ms-2"></i> support@jackmachin.com
+    </span>
+  </div>
+</nav>
+
   
     <!-- Navbar with Bootstrap classes -->
     <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">Jack Machin</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="background: white;"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse ms:m-4" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <router-link class="nav-link text-white" to="/" active-class="active-link">
